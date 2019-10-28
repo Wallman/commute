@@ -1,7 +1,7 @@
 const REQUEST =
 `    <REQUEST>
       <LOGIN authenticationkey="86a386036d754ec2a8f4ff6b62ad7b0f" />
-      <QUERY objecttype="TrainAnnouncement" schemaversion="1.5" orderby="AdvertisedTimeAtLocation" limit="20">
+      <QUERY objecttype="TrainAnnouncement" schemaversion="1.5" orderby="AdvertisedTimeAtLocation" limit="10">
         <FILTER>
           <AND>
             <EQ name="LocationSignature" value="Cst" />
