@@ -1,0 +1,23 @@
+{
+  "name": "commute",
+  "version": "1.0.0",
+  "description": "",
+  "main": "commute.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wallman/commute.git"
+  },
+  "author": "wallman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wallman/commute/issues"
+  },
+  "homepage": "https://github.com/Wallman/commute#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "typescript": "^3.6.4"
+  }
+}
