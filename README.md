@@ -6,5 +6,6 @@ Visar kommande avgångar med SJ från Stockholm till Uppsala och vilket spår t�
 
 Hämta en auth-key för trafikverkets API från www.trafiklab.se
 
-`tsc commute.ts`
-`node commute.js`
+Skapa en `.env` fil med `AUTH_KEY=DIN_API_NYCKEL`K
+
+Kör `npm start`
