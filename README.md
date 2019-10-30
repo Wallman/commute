@@ -1,8 +1,10 @@
 # Commute
 
-Displays the next departures from Stockholm to Uppsala and which track they depart from. Also shows optional information like delays and direct train.
+Visar kommande avgångar med SJ från Stockholm till Uppsala och vilket spår tåget avgår från. Visar också optional information såsom förseningar och direkttåg.
 
-## Usage
+## Användning
+
+Hämta en auth-key för trafikverkets API från www.trafiklab.se
 
 `tsc commute.ts`
 `node commute.js`
