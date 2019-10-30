@@ -1,6 +1,11 @@
+import { config as dotenvConfig } from 'dotenv'
+
+dotenvConfig()
+const AUTH_KEY = process.env.AUTH_KEY
+
 const REQUEST =
 `    <REQUEST>
-      <LOGIN authenticationkey="86a386036d754ec2a8f4ff6b62ad7b0f" />
+      <LOGIN authenticationkey="${AUTH_KEY}" />
       <QUERY objecttype="TrainAnnouncement" schemaversion="1.5" orderby="AdvertisedTimeAtLocation" limit="10">
         <FILTER>
           <AND>
