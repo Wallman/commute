@@ -4,7 +4,8 @@
   "description": "",
   "main": "commute.js",
   "scripts": {
-    "start": "tsc commute.ts && node commute.js"
+    "build": "tsc commute.ts",
+    "start": "node commute.js"
   },
   "repository": {
     "type": "git",

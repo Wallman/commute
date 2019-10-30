@@ -8,4 +8,4 @@ Hämta en auth-key för trafikverkets API från www.trafiklab.se
 
 Skapa en `.env` fil med `AUTH_KEY=DIN_API_NYCKEL`
 
-Kör `npm start`
+Kör `npm build` `npm start`
